@@ -17,6 +17,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  margin-bottom: 20px;
 }
 
 h1,
@@ -52,7 +53,7 @@ h3 {
 
 /* header */
 
-#masthead {
+.navbar {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -106,23 +107,23 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 10px solid #4aaaa5;
 }
 
-/* sidebar */
+/* sidebar, now panel-body class*/
 
-.sidebar {
+.panel-body {
   float: right;
   width: 100%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #ddd;
+ /* border: 1px solid #ddd;*/
 }
 
 h3,
-.sidebar h2 {
+.panel-body h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -154,6 +155,7 @@ h3,
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+
 }
 
 /* portfolio page */
@@ -196,11 +198,31 @@ h3,
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  margin-bottom: 5px;
 }
 
 /* contact page */
 
-#contact-form ul {
+.container {
+
+  height: auto;
+  max-width: 980px;
+}
+.form-group {
+margin-top: 25px;
+width: 500;
+
+}
+
+
+
+
+/*#firstname {
+
+  margin-top: 25px;
+}
+
+/*#contact-form ul {
   margin-bottom: 20px;
 }
 
@@ -226,7 +248,7 @@ textarea {
 }
 
 textarea {
-  height: 200px;
+  height: 500px;
 }
 
 input[type=submit] {
@@ -237,7 +259,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
+*/
 
 /*responsive design section for viewing and media queries*/
 
@@ -278,14 +300,22 @@ input[type=submit] {
 
 /*tells sidebar to stay put*/
 
-.sidebar {
+.panel-body {
 
   width:266px;
   float: left;
  margin-left: 36px;
 
+
 }
-       
+/*style social media icons*/ 
+.social{
+
+  margin-bottom: 10px;
+}
+
+
+
 /*styling for small portfolio pictures*/
 
 .work {
