@@ -51,7 +51,7 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
+/* navbar colors/styles*/
 
 .navbar {
   position: fixed;
@@ -59,12 +59,12 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #fff;
+  color: #4aaaa5;
   background: #fff;
   border-bottom: 2px solid #ccc;
 }
 
-#logo {
+a.navbar.brand {
   float: left;
   width: 250px;
   height: 90px;
@@ -72,7 +72,7 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   line-height: 90px;
-  color: #fff;
+  color: #4aaaa5;
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
@@ -88,14 +88,16 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: #4aaaa5;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  /*border-left: 1px solid #efefef;*/
 }
 
 nav a:first-child {
   border-left: 0 none;
 }
+
+
 
 /* footer */
 
@@ -338,10 +340,11 @@ input[type=submit] {
 
 @media screen and (max-width: 768px){ 
 
-nav {
+/*nav {
 margin-right: 25px;
 
-}
+}*/
+
 
 /*main image*/
 
@@ -388,6 +391,7 @@ margin: 0 auto;
   margin-right: 50px;
 
 }
+
 
 /*Footer*/
 
