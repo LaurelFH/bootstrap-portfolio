@@ -162,6 +162,12 @@ h3,
 
 }
 
+.col-md-1 {
+
+  color: none;
+
+}
+
 /* portfolio page */
 
 .work {
@@ -175,7 +181,7 @@ h3,
 .work:nth-child(even) {
   margin-right: 40px;
 }
-
+/*make all images responsive*/
 .work img {
   width: 100%;
   border: 0 none;
@@ -226,7 +232,7 @@ width: 500;
 }
 
 
-
+/*old form styling*/
 
 /*#firstname {
 
@@ -279,7 +285,7 @@ input[type=submit] {
 
 /* main section*/
 
-.main-section {
+.panel-default {
  
     background-color: white;
     width: 416px;
@@ -290,6 +296,7 @@ input[type=submit] {
     border: 3px solid blue;*/
     float: left;
     margin-left: 125px;
+    margin-bottom: 20px;
 }
 
 /*main teacup profile image*/
@@ -309,7 +316,7 @@ input[type=submit] {
   margin-left: 125px;
 }
 
-/*tells sidebar to stay put*/
+/*tells old sidebar to stay put*/
 
 .panel-body {
 
@@ -368,7 +375,7 @@ margin: 0 auto;
 /*width: 768px;*/
 }
     
- /*the text inside th esidebar*/   
+ /*old style for the text inside the sidebar*/   
 #connect {
 
   max-width: 725px;
@@ -391,7 +398,7 @@ margin: 0 auto;
   margin-left: 25px;
 }
 /*container for the sidebar*/
-.sidebar {
+.panel-body {
 
   margin-left: 25px;
   max-width: 720px;
@@ -478,8 +485,8 @@ padding-right: 50px;
 
 }
 
-/*container for the sidebar*/
-.sidebar {
+/*container for the former sidebar now panel-body*/
+.panel-body {
 
   margin-left: 50px;
   max-width: 640px;
