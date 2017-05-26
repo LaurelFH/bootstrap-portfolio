@@ -121,6 +121,8 @@ footer {
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
+  position: relative;
+  text-align: center;
  /* border: 1px solid #ddd;*/
 }
 
@@ -202,6 +204,13 @@ h3,
   margin-right: 25px;
   margin-bottom: 5px;
 }
+/*put each img in a div with the heading?*/
+/*.img-responsive {
+
+  margin-left: 25px;
+  overflow: hidden;
+
+}*/
 
 /* contact page */
 
